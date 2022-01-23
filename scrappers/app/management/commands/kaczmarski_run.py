@@ -4,5 +4,5 @@ from app.robots.kaczmarski import KaczmarskiSelenium
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
-        sdp = KaczmarskiSelenium('PL52701038')
+        sdp = KaczmarskiSelenium('PL5270103824')
         sdp.run()
